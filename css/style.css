@@ -1,0 +1,247 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Raleway',sans-serif; 
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+p{
+    font-size: 14px;
+}
+
+/*=========Header setting========*/
+
+.header{
+    background-image: url(../images/open_graph_logo.pn);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 100% 70%;
+    background-size:auto;
+    -moz-background-size:cover;
+    -o-background-size:cover;
+    -webkit-background-size:cover;
+}
+
+.header-overlay{
+    /*background-color: rgba(31,31,31,0.75);*/ 
+}
+.logo{
+    padding-bottom: 50px;
+}
+
+.header-text h1{
+    color:brown;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 45px;
+}
+
+.header-text p{
+    color:coral;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+}
+.header-btns{
+    margin-top: 90px;
+    margin-bottom: 50px; 
+    
+}
+
+.btn-download,
+.btn-download:focus,
+.btn-download:active,
+.btn-download:visited
+{
+    background: transparent;
+    background-color:darkgoldenrod;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    transition:all ls;
+    -moz-transition:all ls;
+    -o-transition:all ls;
+    -webkit-transition:all ls;
+    color: aliceblue;
+}
+
+
+
+.btn-download:hover{
+    background-color: chocolate;
+}
+
+.btn-tour,
+.btn-tour:focus,
+.btn-tour:active,
+.btn-tour:visited
+{
+    background: transparent;
+    background-color:darkgoldenrod;
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: aliceblue;
+}
+
+.btn-tour:hover{
+    
+    background-color: chocolate;
+}
+
+.about-iphone img{
+    width: 100%;
+}
+
+
+
+.header-iphone img{
+    width: 100%;
+    
+}
+
+
+/*====About us======*/
+.choose-us-wraper
+{
+    padding-top: 50px;
+}
+
+.section-title h2{
+    position: relative;
+}
+
+.section-title h2::after{
+    content:'';
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background-color: blueviolet;
+    left: 0;
+    bottom: 0;    
+}
+
+.section-title p{
+    text-align: left;
+    margin-top: 45px;
+}
+
+.choose-us-title1 h3,.choose-us-title2 h3,.choose-us-title3 h3{
+    text-transform: uppercase;
+}
+
+
+.choose-us-title h2{
+    text-transform: uppercase;
+    position: relative;
+}
+.choose-us-title h2::after{
+    content:'';
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background-color: blueviolet;
+    left: 7px;
+    bottom: -12px;
+}
+
+.choose-us-title p{
+    margin-top: 40px;
+    font-size: 19px;
+    line-height: 24px;
+}
+.choose-us-item {
+    position: relative;
+    padding-bottom: 4px;
+    padding-left: 30px;
+}
+
+.choose-us-item div{
+    position: relative;
+    top: 0;
+    left: 0;
+}
+.choose-us-item div i{
+    font-size: 55px;
+    color: blue;
+    transition: all ls;
+    -webkit-transition:all ls;
+    -o-transition:all ls;
+    -moz-transition:all ls;
+}
+
+
+/*====Testimonial===*/
+
+.testimonial{ 
+    background-image: url(../images/micro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment:fixed;
+    background-position: center;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;   
+    background-position: 50% 50%;
+}
+
+.testimonial-overlay{
+    background-color: rgba(10,12,12,0.75);
+    padding-bottom: 80px;
+    padding-top: 50px;
+}
+
+.carousel-indicators{
+    bottom: -10px;
+}
+
+.carousel-inner .item img{
+    border: 2px solid #129CF3;
+    border-radius: 100%;
+    padding: 5px;
+}
+
+.testimonial-caption{
+    padding-bottom: 70px;
+}
+
+.testimonial-caption h2{
+    color: aliceblue;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.testimonial-caption h4{
+    color: aliceblue;
+    font-size: 18px;
+}
+
+.testimonial-caption p{
+    color: aliceblue;
+    font-size: 18px;
+    font-style: italic;
+}
+
+.mid-feature-item{
+    
+    padding-top: 50px;
+}
+
+.left-feature-item{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: right;
+    margin-top: 35px;
+}
+
+.right-feature-item{
+    position: relative;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: left;
+    margin-top: 35px;
+}
+
